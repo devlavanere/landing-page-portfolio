@@ -8,7 +8,7 @@
         <!-- title -->
         <title>MSampaio Portfólio</title>
         <!-- CSS -->
-        <link rel="stylesheet" href="" />
+        <link rel="stylesheet" href="css/extends.css" />
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,6 +43,7 @@
                 </div>
             </div>
         </nav>
+
         <!-- header -->
         <header id="header" class="max-width">
             <div class="header__left">
@@ -61,6 +62,192 @@
                 </div>
             </div>
         </header>
+
         <!-- Sobre -->
+        <section id="about" class="about max-width">
+            <div class="about__left">
+                <h2 class="secondary-title"></h2>
+                <p></p>
+                <ul>
+                    <li>
+                        <a href="#"><img src="assets/instagram.svg" alt="Imagem Instagram"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/linkedin.svg" alt="Imagem Linkedin"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/facebook.svg" alt="Imagem Facebook"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="about__right">
+                <h3 class="tertiary-title mb-m">
+                    Desenvolvedor fullstack apaixonado por tecnologia e soluções criativas
+                </h3>
+                <p>
+                    Olá, eu sou Michel Lavanere Sampaio, um desenvolvedor fullstack apaixonado por
+                    tecnologia e soluções criativas. Venho aprendendo diversas tecnologias visando criar
+                    soluções robustas e escaláveis que atendam às necessidades dos clientes.
+                </p>
+                <p>
+                    Eu amo o desafio de encontrar soluções inovadoras e criativas para
+                    problemas complexos e estou sempre buscando aprender e crescer como
+                    profissional.
+                </p>
+            </div>
+        </section>
+        <!-- Habilidades -->
+        <section id="skills" class="skills">
+            <div class="skills__content max-width">
+                <h2 class="tertiary-title">Minha caixinha de ferramentas</h2>
+                <p class="description">
+                    Descubra as habilidades e ferramentas que domino e que me permitem
+                    criar soluções criativas e funcionais para meus clientes.
+                </p>
+                <ul>
+                    <li class="skills__item">
+                        <div class="image-container">
+                            <img src="assets/notebook.png" alt="Desenvolvimento Web">
+                        </div>
+                        <h3>Desenvolvimento Web</h3>
+                        <p>
+                            Experiência em desenvolvimento fullstack com foco em tecnologias
+                            modernas.
+                        </p>
+                    </li>
+                    <li class="skills__item">
+                        <div class="image-container">
+                            <img src="assets/colors.png" alt="Web Design" />
+                        </div>
+                        <h3>Web Design</h3>
+                        <p>
+                            Habilidade em criar layouts modernos e responsivos, com foco na
+                            experiência do usuário.
+                        </p>
+                    </li>
+                    <li class="skills__item">
+                        <div class="image-container">
+                            <img src="assets/phone.png" alt="UX/UI Design" />
+                        </div>
+                        <h3>UX/UI Design</h3>
+                        <p>
+                            Conhecimentos em design de interface e experiência do usuário
+                            visualmente atraentes e intuitivas.
+                        </p>
+                    </li>
+                    <li class="skills__item">
+                        <div class="image-container">
+                            <img src="assets/files.png" alt="Gerenciamentos de versões" />
+                        </div>
+                        <h3>Gerenciamentos de versões</h3>
+                        <p>
+                            Experiência em ferramentas de gerenciamento de versão para
+                            controle de projetos.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Projetos -->
+        <section id="projects" class="projects max-width">
+            <div class="projects__content">
+                <h2 class="secondary-title">Projetos em Destaque</h2>
+                <p>
+                    De ideias abstratas a projetos bem-sucedidos, aqui estão alguns dos
+                    meus trabalhos mais recentes
+                </p>
+            </div>
+            <ul>
+                <li>
+                  <div class="image">
+                    <img src="" alt="" />
+                  </div>
+                  <div class="projects__info">
+                    <h3 class="tertiary-title">
+                      
+                    </h3>
+                    <p>
+                      
+                    </p>
+                    <a href="#">Leia mais &rarr;</a>
+                  </div>
+                </li>
+                <li class="projects__reversed-list">
+                  <div class="image">
+                    <img src="" alt="" />
+                  </div>
+                  <div class="projects__info">
+                    <h3 class="tertiary-title">
+                      
+                    </h3>
+                    <p>
+                      
+                    </p>
+                    <a href="#">Leia mais &rarr;</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="image">
+                    <img src="" alt="" />
+                  </div>
+                  <div class="projects__info">
+                    <h3 class="tertiary-title">
+                      
+                    </h3>
+                    <p>
+                      
+                    </p>
+                    <a href="#">Leia mais &rarr;</a>
+                  </div>
+                </li>
+              </ul>
+        </section>
+        <!-- Contato -->
+        <section id="contact" class="contact max-width">
+            <div class="contact-content">
+                <h2 class="secondary-title">Entre em Contato</h2>
+            </div>
+            <form id="contactForm" class="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+                <label for="message">Mensagem</label>
+                <textarea name="message" name="message" rows="5" placeholder="Digite sua mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <div class="message" id="messageArea"></div>
+        </section>
+
+        <!-- footer -->
+        <footer id="footer">
+      <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
+        <div class="footer__contact mb-m">
+          <span class="mb-m">lavanere@gmail.com</span>
+          <span>(83) 99999-9999</span>
+        </div>
+        <ul class="mb-l">
+          <li>
+            <a href="#"><img src="assets/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/facebook.svg" alt="Facebook" /></a>
+          </li>
+        </ul>
+        <p class="footer__copyright">
+          © 2024 Michel L. Sampaio. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+    <!-- script -->
+    <script src="scripts/index.js"></script>
     </body>
 </html>

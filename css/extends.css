@@ -1,0 +1,5 @@
+@import '/css/variables.css';
+@import '/css/globals.css';
+
+@import '/css/components/navbar.css';
+@import '/css/components/header.css';
