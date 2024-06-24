@@ -65,3 +65,8 @@
     cursor: pointer;
     font-size: 2rem;
 }
+
+.message {
+    margin-top: 2rem;
+    text-align: center;
+}
