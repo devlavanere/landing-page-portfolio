@@ -53,7 +53,6 @@ A landing page possui os seguintes elementos:
         - **`index.js:`** Arquivo javascript.
     - **`index.html`:** Arquivo HTML principal da landing page.
     - **`README.md`**
-    - **`.gitignore`**
 
 ### Branches
 
