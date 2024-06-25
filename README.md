@@ -78,6 +78,10 @@ A landing page possui os seguintes elementos:
 - JavaScript
 - Git
 
+### Link para Acesso a Landing Page, Hospedada na Vercel
+
+[Landing-Page-Portfolio](https://landing-page-portfolio-eight.vercel.app/) 
+
 ### Autor
 
 [<img src="https://avatars.githubusercontent.com/u/125924854?s=400&u=505601333417c0f00a726bb3e1e757dcaa874463&v=4" width=115><br><sub>Michel L. Sampaio</sub>](https://github.com/devlavanere)
