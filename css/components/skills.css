@@ -40,6 +40,19 @@
     margin: 2rem 0 1rem;
 }
 
+/* media-queries */
+@media (max-width: 600px) {
+    .skills .skills__content ul li {
+      width: 100%;
+      display: block;
+      margin-bottom: 2rem;
+    }
+  
+    .skills .skills__content .description {
+      font-size: 1.4rem;
+    }
+}
+
 .skills .skills__content ul::after {
     content: "";
     display: table;

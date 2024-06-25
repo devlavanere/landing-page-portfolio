@@ -70,3 +70,19 @@
     margin-top: 2rem;
     text-align: center;
 }
+
+/* media-queries */
+@media (max-width: 600px) {
+    .contact-form label {
+        font-size: 1.4rem;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 1.4rem;
+    }
+    
+    .contact-form button {
+        font-size: 1.4rem;
+    }
+}

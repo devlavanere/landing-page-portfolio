@@ -44,6 +44,45 @@
     float: left; 
 }
 
+/* media-querie */
+@media (max-width: 900px) {
+    .projects ul li .image {
+      float: none;
+      margin-right: 0;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+  
+    .projects ul li .projects__info {
+      float: none;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .projects ul li.projects__reversed-list .image {
+      float: none;
+      margin-left: 0;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+  
+    .projects ul li.projects__reversed-list .projects__info {
+      float: none;
+      margin-right: 0;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .projects ul li .projects__info h3 {
+      font-size: 2.4rem;
+    }
+  
+    .projects ul li .projects__info p {
+      font-size: 1.4rem;
+    }
+}
+
 .projects ul li::after {
     content: "";
     display: table;

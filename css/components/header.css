@@ -49,6 +49,33 @@ header .header__right .header__image .background {
     z-index: -1;
 }
 
+/* media-queries */
+@media (max-width: 900px) {
+    header .header__left {
+      max-width: 100%;
+      float: none;
+      margin-right: 0;
+      text-align: center;
+    }
+  
+    header .header__right {
+      max-width: 100%;
+      float: none;
+      text-align: center;
+      margin-top: 4rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    header .header__left h1 {
+      font-size: 4rem;
+    }
+  
+    header .header__left p {
+      font-size: 1.4rem;
+    }
+}
+
 header::after {
     content: "";
     display: table;

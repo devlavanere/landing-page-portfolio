@@ -30,6 +30,41 @@
     float: right;
 }
 
+/* media-queries */
+@media (max-width: 900px) {
+    .about .about__left {
+      max-width: 100%;
+      float: none;
+      margin-right: 0;
+      text-align: center;
+    }
+  
+    .about .about__right {
+      max-width: 100%;
+      float: none;
+      margin-top: 4rem;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .about .about__left h2 {
+      font-size: 3.2rem;
+    }
+  
+    .about .about__left p {
+      font-size: 1.4rem;
+    }
+  
+    .about .about__right h3 {
+      font-size: 2.4rem;
+    }
+  
+    .about .about__right p {
+      font-size: 1.4rem;
+    }
+  }
+
 .about::after {
     content: "";
     display: table;
