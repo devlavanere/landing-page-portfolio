@@ -4,7 +4,7 @@
 
 ## Atividade 03: Landing Page Portfólio
 
-Este repositório contém o código fonte de uma landing page, que visa construir um portfólio pessoal, criada utilizando HTML, CSS e JavaScript, como atividade do módulo de Desenvolvimento Web.
+Este repositório contém o código fonte de uma landing page, que visa construir um portfólio pessoal. Ela foi criada utilizando HTML, CSS e JavaScript.
 
 ### Objetivo
 
@@ -24,14 +24,14 @@ A landing page possui os seguintes elementos:
     - Mostra um pouco sobre mim.
 
 - **Seção Habilidades:**
-    - Descrição habilidades adquiridas ao longo do tempo.
+    - Descrição de habilidades adquiridas ao longo do tempo.
 
 - **Seção Projetos:**
-    - Contém trẽs projetos que, utilizam diferentes teclogias.
+    - Contém três projetos que, utilizam diferentes teclogias.
 
 - **Contato**
     - Formulário de contato simples com os campos: nome, email e mensagem.
-    - Botão de envio do formulário com ação JavaScript para exibr informando que a mensagem foi enviada.
+    - Botão de envio do formulário com ação JavaScript para exibr a informação que a mensagem foi enviada.
 
 ### Estrutura do Repositório
 - **Pasta: Landing-Page-Portfolio**
