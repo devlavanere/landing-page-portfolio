@@ -15,7 +15,7 @@
     margin-top: 15rem;
     background-image: url('/assets/imagem-fundo.jpg');
     background-repeat: no-repeat;
-  
+    background-size: cover;
   }
   
   ul {
