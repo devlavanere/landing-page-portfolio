@@ -30,6 +30,10 @@
     float: right;
 }
 
+.about .about__right .paragraph {
+  color: var(--white);
+}
+
 /* media-queries */
 @media (max-width: 900px) {
     .about .about__left {
