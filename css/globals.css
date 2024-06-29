@@ -13,6 +13,9 @@
   body {
     font-size: 1.6rem;
     margin-top: 15rem;
+    background-image: url('/assets/imagem-fundo.jpg');
+    background-repeat: no-repeat;
+  
   }
   
   ul {
@@ -70,6 +73,12 @@
     font-weight: 400;
     font-size: 1.4rem;
   }
+
+  .btn.btn-primary:hover {
+    background-color: var(--white);
+    color: var(--dark-secondary-color);
+    transition: 2s ease;
+  } 
   
   .max-width {
     width: 100%;

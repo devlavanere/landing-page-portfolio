@@ -23,7 +23,7 @@ contactForm.addEventListener('submit', (event) => {
     const name = document.getElementById('name').value;
     
     messageText.textContent = `Olá ${name}, seu formulário foi enviado com sucesso!`;
-    messageText.style.color = 'green';
+    messageText.style.color = 'white';
     messageArea.style.display = 'block';
 
     // Adicionar evento de click para fechar a mensagem
